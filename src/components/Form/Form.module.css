@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__input {
+  border: none;
+  border-bottom: 1px solid var(--dark-color);
+}
+
+.form__btn {
+  background-color: var(--main-color);
+  opacity: 0.8;
+  border: 1.5px solid transparent;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  transition: all 0.2s ease-in-out;
+  font-weight: bold;
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  border-color: var(--dark-color);
+  opacity: 1;
+}

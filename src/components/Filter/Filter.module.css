@@ -1,0 +1,11 @@
+.filter__wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.filter__input {
+  border: none;
+  border-bottom: 1px solid var(--dark-color);
+}

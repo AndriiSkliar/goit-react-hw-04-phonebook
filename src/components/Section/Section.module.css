@@ -1,0 +1,8 @@
+.section:first-child {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align-last: left;
+}
